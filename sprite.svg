@@ -1,21 +1,24 @@
-<svg style="display:none;">
-        <symbol id="head" viewbox="0 0 166 149">
-            <circle r="70" cx="83" cy="79" fill="#ffffff"/>            
-        </symbol> 
-        <symbol id="nose" viewbox="0 0 166 149">
-            <ellipse rx="10" ry="7.5" cx="83" cy="100.5" fill="black" />
-        </symbol> 
-        <symbol id="eye" viewbox="0 0 166 149">
+<svg xmlns="http://www.w3.org/2000/svg">
+        <symbol id="panda" viewbox="0 0 166 149">
+            <g transform="rotate(-45 30 32)">
+                <ellipse rx="25" ry="18.5" cx="30" cy="32" fill="gray" />
+                <ellipse rx="10" ry="7.5" cx="30" cy="32" fill="black" />
+            </g>      
+            <g transform="rotate(-135 80 9)">
+                <ellipse rx="25" ry="18.5" cx="30" cy="32" fill="gray" />
+                <ellipse rx="10" ry="7.5" cx="30" cy="32" fill="black" />
+            </g>     
+            <circle r="70" cx="83" cy="79" fill="#ffffff"/> 
+            <ellipse rx="10" ry="7.5" cx="83" cy="100.5" fill="black" />  
             <g>
                 <ellipse rx="15" ry="18.5" cx="50" cy="82.5" fill="gray" />
                 <circle r="7" cx="50" cy="79" fill="black"/>            
                 <circle r="3" cx="48" cy="76" fill="white"/> 
-            </g>          
-        </symbol>
-        <symbol id="ear" viewbox="0 0 166 149">
-            <g>
-                <ellipse rx="25" ry="18.5" cx="30" cy="32" fill="gray" />
-                <ellipse rx="10" ry="7.5" cx="30" cy="32" fill="black" />
-            </g>
-        </symbol>
+            </g>  
+            <g transform="translate(65)">
+                <ellipse rx="15" ry="18.5" cx="50" cy="82.5" fill="gray" />
+                <circle r="7" cx="50" cy="79" fill="black"/>            
+                <circle r="3" cx="48" cy="76" fill="white"/> 
+            </g>             
+        </symbol> 
     </svg>
